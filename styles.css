@@ -293,8 +293,13 @@ p {
 }
 
 .card-icon {
-    font-size: 3rem;
+    font-size: 4.2rem;
     margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.debuche-card:hover .card-icon {
+    transform: scale(1.1);
 }
 
 .debuche-link {
