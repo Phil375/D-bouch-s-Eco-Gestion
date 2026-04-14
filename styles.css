@@ -80,6 +80,22 @@ p {
     margin-top: 0.25rem;
 }
 
+.instagram-header-link {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.instagram-logo {
+    height: 40px;
+    width: auto;
+    transition: var(--transition);
+}
+
+.instagram-logo:hover {
+    transform: scale(1.1);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
