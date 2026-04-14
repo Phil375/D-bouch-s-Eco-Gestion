@@ -87,7 +87,7 @@ p {
 }
 
 .instagram-logo {
-    height: 40px;
+    height: 1.8rem;
     width: auto;
     transition: var(--transition);
 }
