@@ -82,11 +82,11 @@ p {
 
 .instagram-header-link {
     margin-left: 0.5rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     display: flex;
     align-items: center;
     position: relative;
-    left: -150px;
+    left: -50px;
 }
 
 .instagram-logo {
@@ -96,6 +96,26 @@ p {
 }
 
 .instagram-logo:hover {
+    transform: scale(1.1);
+}
+
+.linkedin-header-link {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -110px;
+}
+
+.linkedin-logo {
+    height: 2.2rem;
+    width: auto;
+    transition: var(--transition);
+    filter: hue-rotate(120deg) saturate(1.2);
+}
+
+.linkedin-logo:hover {
     transform: scale(1.1);
 }
 
